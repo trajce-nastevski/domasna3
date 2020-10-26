@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #e6e6e6;
+  /*  height: 1200px; */
+}
+
+#header {
+    
+    background-color: #ff7101;
+    height: 4em;
+    
+   
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin:auto; 
+    
+    
+}
+
+#logo {
+    display: inline;
+    text-align: start;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+#menuListDiv {
+    margin-left: 300px;
+    
+}
+
+
+#menuList a {    
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+
+#menuList li {
+    display: inline;
+    color: white;
+    padding-right: 10px;
+    
+}
+
+#socialMediaIconsDiv {
+    justify-content: flex-end;
+    margin: auto;
+}
+
+#heading {
+    display: flex;
+    background-color: #ffffff;
+    margin-top: 15px;
+    height: 30rem;
+    
+
+}
+
+#headingImg {
+    align-self: center;
+    margin: auto;
+}
+
+#main {
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+
+.box {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 22rem;
+    width: 17rem;
+    background-color: #f2f2f2;
+    border-radius: 2px;
+    align-items: flex-start;
+    
+}
+
+.image {
+    margin: 5px auto 0px auto;
+    height: 128px;
+    width: 128px;
+}
+
+.headingTitles {
+    margin: 5px auto 0px auto;
+    font-size: 1.5rem;
+    color: #36bdc1;
+    
+}
+
+.headingText {
+    width: 90%;
+    margin: auto;
+    color: darkgrey;
+}
+
+.headingButton {
+    display: inline;
+    margin: 5px auto 0px auto;
+    font-size: 1rem;
+    padding: 15px 32px;
+    background-color: #36bdc1;
+    color: white;
+    border: none;
+    transform: translate(0, 20px);
+
+}
+button:hover {
+    background-color: #ff7101;
+}
+
+button:active {
+    text-decoration: underline;
+  }
+
+#afterHeading {
+    margin-top: 40px;
+    height: 50px;
+    background-color: white;
+}
